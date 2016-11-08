@@ -1,0 +1,6 @@
+{
+  "name": "Electionselection",
+  "tagline": "Web App for deciding on Candidates based on  platform consistencies",
+  "body": "This is a web based application that helps users decide on a candidate based on their views of the Major topics.After Making an initial selection the user is presented topics, and questioned on their stances'f their stances align with a canidate, the user is presented with a new set, but if the user picks contrary to their candidate decision they are showed contextual evidence of the candidates stance on the issue.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
