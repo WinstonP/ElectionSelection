@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+
+        body {
+            background-color: #3399ff;
+        }
+
+        .white-background {
+            background-color: #ffffff;
+            color: #3399ff;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3399ff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ffffff;
+            font-style: italic;
+        }
+
+        h3 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            background-color: red;
+            cursor: pointer;
+            border-radius: 4px;
+            border: 2px solid #ffffff;
+            text-align: center;
+        }
+
+        .button {
+            color: white;
+            font: 24px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '»';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        button.center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        button.text {
+            color: white;
+            font-size: 24px;
+        }
+
+        .blue-font {
+            text-color: #3399ff;
+        }
+
+        .btn-block {
+            width: 100%;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0); /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <title>Election Selection: Civil Rights, Native American Treaties</title> <!-- place topic and question name -->
+
+</head>
+<body>
+<div class="jumbotron white-background">
+
+    <h1>Election Selection </h1>
+</div>
+
+<div class="container">
+
+    <h2 id="topic">Civil Rights</h2> <br/><!--Insert topic here -->
+    <h3 id="header"> Question? </h3> <!--Insert question here -->
+    <br/>
+    <!-- <a href=""-->
+    <p>
+
+        <button id="answer1" type="button" class="button center btn-block text"><span>Answer Choice 1</span></button>
+        <!-- Insert answer choices -->
+        <br/>
+        <br/>
+        <br/>
+        <button id="answer2" type="button" class="button center btn-block text"><span>Answer Choice 2</span></button>
+        <!-- Insert answer choices -->
+
+        <!-- Trigger/Open The Modal -->
+        >
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">×</span>
+                  <p id="comment">Some text in the Modal..</p>
+</div>
+
+</div>
+
+<!--
+<div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+
+        &lt;!&ndash; Modal content&ndash;&gt;
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>-->
+
+
+
+</div>
+
+</div>
+
+
+</div>
+
+<span id="Clinton"></span>
+<span id="Stein"></span>
+<span id="Johnson"></span>
+<span id="Trump"></span>
+
+
+</p>
+<script src="QABanks.js"></script>
+
+</div>
+
+
+</body>
+
+
+
+
+
+
+
+</html>
